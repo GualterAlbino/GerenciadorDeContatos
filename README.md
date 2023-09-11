@@ -1,6 +1,4 @@
 # GerenciadorDeContatos
-Projeto prático utilizando Java e a biblioteca Swing
-
 Projeto simples utilizando a biblioteca Java Swing e o recurso de prevalência de dados armazendo as modificações em memoria principal, e trasnferindo posteriomente para um arquivo XML sendo esse utilizado como "base de dados" para que a aplicação consuma ao inicializar.
 
 
