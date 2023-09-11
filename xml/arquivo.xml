@@ -1,0 +1,50 @@
+<list>
+  <Contato>
+    <codigo>ed77527a-ffd8-48ef-a084-46bc79f488ae</codigo>
+    <nome>Gualter Albino</nome>
+    <tipoContato>Profissional</tipoContato>
+    <isFavorito>true</isFavorito>
+    <telefone>(32) 4002 - 8922</telefone>
+    <celular>(32) 99866 - 2353</celular>
+    <fax>00000-00000</fax>
+    <observacao>Sem Observações.</observacao>
+    <nomeEmpresa>Tek-System</nomeEmpresa>
+    <cargoEmpresa></cargoEmpresa>
+  </Contato>
+  <Contato>
+    <codigo>c2711a88-4775-4b01-b2a2-bff746fb75d8</codigo>
+    <nome>Marcos Paulo</nome>
+    <tipoContato>Outro</tipoContato>
+    <isFavorito>true</isFavorito>
+    <telefone>(32) 4002 - 8922</telefone>
+    <celular>(32) 98174 - 5417</celular>
+    <fax></fax>
+    <observacao>Apagou o NOTION.</observacao>
+    <nomeEmpresa></nomeEmpresa>
+    <cargoEmpresa></cargoEmpresa>
+  </Contato>
+  <Contato>
+    <codigo>7786fb97-9bb1-41c2-93a1-1d9b42cf6d65</codigo>
+    <nome>João Vitor Teixeira</nome>
+    <tipoContato>Outro</tipoContato>
+    <isFavorito>true</isFavorito>
+    <telefone>(55) 4002 - 8922</telefone>
+    <celular>(21) 98874 - 5152</celular>
+    <fax>Não tem</fax>
+    <observacao>...</observacao>
+    <nomeEmpresa></nomeEmpresa>
+    <cargoEmpresa></cargoEmpresa>
+  </Contato>
+  <Contato>
+    <codigo>40bb754f-a609-4675-9246-9f1bbb981774</codigo>
+    <nome>Saulo Cunha Campos</nome>
+    <tipoContato>Profissional</tipoContato>
+    <isFavorito>false</isFavorito>
+    <telefone>(45) 4858 - 6456</telefone>
+    <celular>(23) 62198 - 4618</celular>
+    <fax></fax>
+    <observacao>Laboratorio de Programação.</observacao>
+    <nomeEmpresa>Unifagoc</nomeEmpresa>
+    <cargoEmpresa>Professor</cargoEmpresa>
+  </Contato>
+</list>
