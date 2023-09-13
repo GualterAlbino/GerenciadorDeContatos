@@ -24,7 +24,7 @@ import javax.swing.table.DefaultTableModel;
  */
 public class TelaPrincipal extends javax.swing.JFrame {
 
-    private String path = "D:\\GualterAlbino\\Documents\\Faculdade\\Faculdade 6-Semestre\\Laboratorio de Progrmação - Saulo\\Estudo Dirigido 2\\GerenciadorDeContatos\\xml\\arquivo.xml";
+    private String path = "..\\GerenciadorDeContatos\\xml\\arquivo.xml";
 
     private boolean ContatoEditado;
 
@@ -474,9 +474,16 @@ public class TelaPrincipal extends javax.swing.JFrame {
             Class[] types = new Class [] {
                 java.lang.String.class, java.lang.String.class, java.lang.Boolean.class, java.lang.Integer.class
             };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false
+            };
 
             public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
             }
         });
         Tabela.setFocusable(false);
